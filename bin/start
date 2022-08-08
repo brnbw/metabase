@@ -47,4 +47,4 @@ if [ "$JAVA_TIMEZONE"]; then
     JAVA_OPTS+=" -Duser.timezone=$JAVA_TIMEZONE"
 fi
 
-exec java $JAVA_OPTS -jar ./tmp/metabase.jar
+exec java $JAVA_OPTS -jar /tmp/metabase.jar
