@@ -1,0 +1,2 @@
+#!/bin/bash
+wget -O /tmp/metabase.jar ${MB_JAR_URL:-https://downloads.metabase.com/latest/metabase.jar}

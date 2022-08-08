@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "dokku": {
+      "predeploy": "bin/update",
+      "postdeploy": ""
+    }
+  }
+}
